@@ -33,12 +33,12 @@ function AddCat(cat){
     mainView.appendChild(catContainer);
 }
 
-var mittens = new Cat("Mittens", "/images/mittens.jpeg");
-var meoweisha = new Cat("Meoweisha", "/images/meoweisha.jpg");
-var byakuya = new Cat("Byakuya", "/images/byakuya.jpg");
-var sammy = new Cat("Sammy", "/images/sammy.jpeg");
-var merlin = new Cat("Merlin", "/images/Merlin.jpeg");
-var whiskey = new Cat("Whiskey", "/images/whiskey.jpg");
+var mittens = new Cat("Mittens", "mittens.jpeg");
+var meoweisha = new Cat("Meoweisha", "meoweisha.jpg");
+var byakuya = new Cat("Byakuya", "byakuya.jpg");
+var sammy = new Cat("Sammy", "sammy.jpeg");
+var merlin = new Cat("Merlin", "Merlin.jpeg");
+var whiskey = new Cat("Whiskey", "whiskey.jpg");
 
 var cats = [mittens, meoweisha, byakuya, sammy, merlin, whiskey];
 
