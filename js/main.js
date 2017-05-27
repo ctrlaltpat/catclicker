@@ -33,19 +33,12 @@ function AddCat(cat){
     mainView.appendChild(catContainer);
 }
 
-
-// catContainer.addEventListener('click', function () {
-//     clicks+=1;
-//     console.log(clicks);
-//     counter.innerHTML = clicks;
-// }, false);
-
-var mittens = new Cat("Mittens", "../images/mittens.jpeg");
-var meoweisha = new Cat("Meoweisha", "../images/meoweisha.jpg");
-var byakuya = new Cat("Byakuya", "../images/byakuya.jpg");
-var sammy = new Cat("Sammy", "../images/sammy.jpeg");
-var merlin = new Cat("Merlin", "../images/Merlin.jpeg");
-var whiskey = new Cat("Whiskey", "../images/whiskey.jpg");
+var mittens = new Cat("Mittens", "/images/mittens.jpeg");
+var meoweisha = new Cat("Meoweisha", "/images/meoweisha.jpg");
+var byakuya = new Cat("Byakuya", "/images/byakuya.jpg");
+var sammy = new Cat("Sammy", "/images/sammy.jpeg");
+var merlin = new Cat("Merlin", "/images/Merlin.jpeg");
+var whiskey = new Cat("Whiskey", "/images/whiskey.jpg");
 
 var cats = [mittens, meoweisha, byakuya, sammy, merlin, whiskey];
 
