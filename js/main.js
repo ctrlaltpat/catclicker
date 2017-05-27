@@ -33,13 +33,6 @@ function AddCat(cat){
     mainView.appendChild(catContainer);
 }
 
-
-// catContainer.addEventListener('click', function () {
-//     clicks+=1;
-//     console.log(clicks);
-//     counter.innerHTML = clicks;
-// }, false);
-
 var mittens = new Cat("Mittens", "../images/mittens.jpeg");
 var meoweisha = new Cat("Meoweisha", "../images/meoweisha.jpg");
 var byakuya = new Cat("Byakuya", "../images/byakuya.jpg");
